@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* General rules */
+
 body {
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
@@ -11,10 +13,7 @@ body {
     padding: 50px 400px;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bolder;
-}
+/* Header section */
 
 .header {
     display: flex;
@@ -23,19 +22,26 @@ body {
     padding: 0px 400px;
 }
 
-ul {
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.links {
     list-style: none;
     display: flex;
 }
 
-li {
+.links li {
     margin: 0px 10px;
 }
 
-a {
+.links li a {
     color: #f9faf8;
     text-decoration: none;
 }
+
+/* Awesome section */
 
 .one {
     display: flex;
@@ -74,11 +80,11 @@ a {
     margin-left: 50px;
 }
 
-/* Awesome section */
+/* Some random information section */
 
 .two {
     color: #1f2937;
-    background-color: white;
+    background-color: #f9faf8;
 }
 
 .two h2 {
@@ -105,4 +111,25 @@ a {
 
 .caption {
     text-align: center;
+}
+
+/* Thor section */
+
+.three {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 50px 570px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bolder;
 }
