@@ -133,3 +133,53 @@ body {
     font-size: 18px;
     font-weight: bolder;
 }
+
+/* Call to action section */
+
+.four {
+    background-color: #f9faf8;
+    padding: 50px 480px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    border: 2px solid #3882f6; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 75px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cta-text p {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bordered {
+    border: 2px solid #e5e7eb;
+}
+
+/* Footer section */
+
+.footer {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
